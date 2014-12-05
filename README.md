@@ -8,4 +8,4 @@ Memory Game for iPhone
 
 문제가 되었던 부분은 UIImage 객체를 같은지 비교하는 부분이 있었는데, UIImage 객체 비교를 위해서 ios8 에서 지원되는 CGImageRef 를 사용했습니다.
 
-화면 레이아웃은 XCode 6.1 이 익숙하지 않아서, 에뮬레이터를 iphone6 로 맞추고 작업했습니다. 이 부분은 수정해야 할듯하네요.
+화면 레이아웃은 XCode 6.X 의 Size Classes 기능에 익숙하지 않아서, 에뮬레이터를 iphone6 로 맞추고 작업했습니다. 이 부분은 수정해야 할듯하네요.
